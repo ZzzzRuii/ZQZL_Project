@@ -41,10 +41,12 @@ port:
 sql:
 - jdbc:mysql://47.97.7.63:3306/conveter?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
 
+```
 cloud:
   nacos:
     discovery:
       server-addr: localhost:8848
+```
 
 pom.xml:
 - nacos的依赖
